@@ -9,8 +9,8 @@ Basic functionality is as follows:
 1. The user can upload files individually.
 2. Each file can have multiple versions, generated when the user uploads a new version for the file.
 3. These files and versions can be edited an deleted.
-4. The current version is the last version updated for a specific file.
-5. Any version of the file can be restored to the current in the history view for each file.
+4. The active version is, by default, the last version updated for a specific file.
+5. Any version of the file can be restored to be the active one, using the history view for each file and clicking the restore button.
 
 
 Setup instructions
