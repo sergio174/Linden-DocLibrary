@@ -1,4 +1,4 @@
-Linden Doclibrary
+Linden DocLibrary
 =======
 
 This test was developed using the framework CakePHP 2.3
