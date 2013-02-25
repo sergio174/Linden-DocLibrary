@@ -1,0 +1,26 @@
+body{
+	padding: 20px;
+}
+
+.prev.disabled, .next.disabled{
+	display: none;;
+}
+.mainActions
+{
+	padding: 20px;
+	float: left;
+}
+
+.table tr th, .table tr th a{
+	background-color: #0088cc !important;
+	color: #FFF !important;
+}
+
+#flashMessage{
+	margin: 15px 0 0 30px !important;
+	float: left;
+	background-color: #f89406 !important;
+	color: #FFF;
+	min-width: 500px;
+	text-shadow:none !important;
+}
