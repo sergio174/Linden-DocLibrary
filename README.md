@@ -10,7 +10,7 @@ Basic functionality is as follows:
 2. Each file can have multiple versions, generated when the user uploads a new version for the file.
 3. These files and versions can be edited an deleted.
 4. The active version is, by default, the last version updated for a specific file.
-5. Any version of the file can be restored to be the active one, using the history view for each file and clicking the restore button.
+5. Any version of the file can be restored to be the active one, using the history view for each file and clicking the restore button on the desired file version.
 
 
 Setup instructions
