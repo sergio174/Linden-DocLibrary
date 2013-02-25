@@ -1,0 +1,1181 @@
+2013-02-24 21:10:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /linden-doclibrary/docversions/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `li...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `li...')
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(1734): DboSource->create(Object(Docversion), Array, Array)
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocversionsController.php(43): Model->save(Array)
+#5 [internal function]: DocversionsController->add()
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocversionsController), Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-24 22:26:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/css/libs/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-24 22:26:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/css/libs/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-24 22:35:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/css/libs/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-24 22:35:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/css/libs/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-24 23:06:49 Error: [MissingControllerException] Controller class LibsController could not be found.
+Exception Attributes: array (
+  'class' => 'LibsController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/libs/jquery/jquery-1.9.0.min.js
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-24 23:08:57 Error: [MissingControllerException] Controller class LibsController could not be found.
+Exception Attributes: array (
+  'class' => 'LibsController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/libs/fancybox/jquery.fancybox.pack.css
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-24 23:40:25 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp, line 8]
+2013-02-24 23:40:25 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 8, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 8, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-24 23:40:27 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp, line 8]
+2013-02-24 23:40:27 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 8, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 8, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-24 23:53:19 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp, line 38]
+2013-02-24 23:53:19 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 38, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 38, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-24 23:53:21 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp, line 38]
+2013-02-24 23:53:21 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 38, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 38, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-24 23:59:37 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp, line 39]
+2013-02-24 23:59:37 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW, expecting ')'
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 39, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 39, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 00:22:05 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php, line 58]
+2013-02-25 00:22:05 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 58, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 58, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 00:22:20 Error: Fatal Error (1): Call to a member function begin() on a non-object in [/Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php, line 54]
+2013-02-25 00:22:20 Error: [FatalErrorException] Call to a member function begin() on a non-object
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Volumes/Data/X...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Volumes/Data/X...', 54, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Volumes/Data/X...', 54, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 00:27:35 Error: [MissingControllerException] Controller class DocversionController could not be found.
+Exception Attributes: array (
+  'class' => 'DocversionController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/docversion
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-25 00:38:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Doc.Docversion.id' in 'where clause'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 00:39:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.id' in 'where clause'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 00:40:47 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php, line 30]
+2013-02-25 00:40:47 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 30, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 30, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 00:40:57 Error: Fatal Error (1): Call to a member function attach() on a non-object in [/Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php, line 19]
+2013-02-25 00:40:57 Error: [FatalErrorException] Call to a member function attach() on a non-object
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Volumes/Data/X...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Volumes/Data/X...', 19, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Volumes/Data/X...', 19, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 00:52:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.id' in 'on clause'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 00:53:58 Error: [MissingTableException] Table linden_current_docversions for model CurrentDocversion was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'linden_current_docversions',
+  'class' => 'CurrentDocversion',
+  'ds' => 'default',
+)
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(3217): Model->setSource('current_docvers...')
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1066): Model->getDataSource()
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#6 [internal function]: DocsController->index()
+#7 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#8 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-25 00:54:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.id' in 'on clause'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 00:55:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.id' in 'on clause'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 00:55:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.id' in 'on clause'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 01:06:50 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php, line 87]
+2013-02-25 01:06:50 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 87)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 87, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 87, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 01:12:59 Error: Fatal Error (4): syntax error, unexpected '>' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/index.ctp, line 17]
+2013-02-25 01:12:59 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 17, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 17, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 01:13:20 Error: Fatal Error (4): syntax error, unexpected '>' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/index.ctp, line 17]
+2013-02-25 01:13:20 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 17, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 17, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 01:27:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.is_current' in 'where clause'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(20): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 01:43:01 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/view.ctp, line 4]
+2013-02-25 01:43:01 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ',' or ';'
+Request URL: /linden-doclibrary/docs/view/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 4, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 4, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 01:44:38 Error: Fatal Error (4): syntax error, unexpected '/' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/view.ctp, line 4]
+2013-02-25 01:44:38 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /linden-doclibrary/docs/view/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 4, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 4, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 02:05:48 Error: [MissingActionException] Action DocsController::download() could not be found.
+Exception Attributes: array (
+  'controller' => 'DocsController',
+  'action' => 'download',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-25 02:07:42 Error: [MissingActionException] Action DocsController::download() could not be found.
+Exception Attributes: array (
+  'controller' => 'DocsController',
+  'action' => 'download',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-25 02:10:38 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:10:53 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:12:49 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:13:09 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:13:11 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:13:33 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:13:35 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:13:42 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:13:57 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:13:58 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:14:30 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:27:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Docvers...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Docvers...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Docvers...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Docversion), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(1551): Model->find('first', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(143): Model->field('id', Array)
+#7 [internal function]: DocsController->download('19')
+#8 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-02-25 02:28:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Docvers...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Docvers...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Docvers...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Docversion), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(1551): Model->find('first', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(143): Model->field('id', Array)
+#7 [internal function]: DocsController->download('19')
+#8 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-02-25 02:29:19 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/download.ctp',
+)
+Request URL: /linden-doclibrary/docs/download/19
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:32:56 Error: [MissingControllerException] Controller class DocversionController could not be found.
+Exception Attributes: array (
+  'class' => 'DocversionController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/Docversion/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-25 02:33:16 Error: [MissingControllerException] Controller class DocversionController could not be found.
+Exception Attributes: array (
+  'class' => 'DocversionController',
+  'plugin' => NULL,
+)
+Request URL: /linden-doclibrary/Docversion/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-25 02:33:20 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocversionsController.php, line 136]
+2013-02-25 02:33:20 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ')'
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 136)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 136, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 136, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 02:33:41 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:34:08 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:36:38 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:36:53 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:40:37 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:40:50 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:40:52 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:40:52 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:42:01 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:46:32 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:46:57 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:49:29 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:49:34 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:49:54 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocversionsController.php(155): Controller->render()
+#3 [internal function]: DocversionsController->download('25')
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocversionsController), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-02-25 02:50:02 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:51:50 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:54:42 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:54:55 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:55:09 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:56:21 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:56:43 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:56:55 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/23
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:56:59 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/25
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:57:05 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/24
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 02:58:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.created' in 'order clause'
+Request URL: /linden-doclibrary/docs/index/sort:Docversion.created/direction:desc
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(25): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 02:58:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.created' in 'order clause'
+Request URL: /linden-doclibrary/docs/index/sort:Docversion.created/direction:desc
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Component/PaginatorComponent.php(195): Model->find('all', Array)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(1073): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(25): Controller->paginate()
+#8 [internal function]: DocsController->index()
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#10 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-02-25 03:09:33 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/26
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:20:01 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:20:52 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/27
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:21:08 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:21:46 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/27
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:21:55 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:22:06 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/Docversions/download/27
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:23:00 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/view.ctp, line 38]
+2013-02-25 03:23:00 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /linden-doclibrary/docs/view/20
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 38, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 38, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 03:23:17 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/27
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:23:25 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/27
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:23:30 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/24
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:23:32 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/26
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:23:34 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/27
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:27:48 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/26
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 03:36:10 Error: [CakeException] Missing field name for FormHelper::close
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp(50): FormHelper->__call('close', Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp(50): FormHelper->close()
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(947): include('/Volumes/Data/X...')
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(909): View->_evaluate('/Volumes/Data/X...', Array)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(470): View->_render('/Volumes/Data/X...')
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#7 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#8 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-02-25 03:36:25 Error: [CakeException] Missing field name for FormHelper::close
+Request URL: /linden-doclibrary/docs/add
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp(51): FormHelper->__call('close', Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/app/View/Docs/add.ctp(51): FormHelper->close()
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(947): include('/Volumes/Data/X...')
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(909): View->_evaluate('/Volumes/Data/X...', Array)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(470): View->_render('/Volumes/Data/X...')
+#5 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#6 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#7 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#8 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-02-25 04:12:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Docversion.is_current' in 'order clause'
+Request URL: /linden-doclibrary/docs/view/20
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Doc`.`i...', Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Doc`.`i...', Array, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Doc`.`i...', false)
+#4 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Model/Model.php(2674): DboSource->read(Object(Doc), Array)
+#5 /Volumes/Data/XM/www/linden-doclibrary/app/Controller/DocsController.php(46): Model->find('first', Array)
+#6 [internal function]: DocsController->view('20')
+#7 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocsController), Array)
+#8 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocsController), Object(CakeRequest), Object(CakeResponse))
+#10 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-02-25 04:15:21 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW, expecting ')' in [/Volumes/Data/XM/www/linden-doclibrary/app/Model/Doc.php, line 69]
+2013-02-25 04:15:21 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW, expecting ')'
+Request URL: /linden-doclibrary/
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Data/X...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Data/X...', 69, Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Data/X...', 69, Array)
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-25 04:51:31 Error: [NotFoundException] Invalid docversion
+Request URL: /linden-doclibrary/docversions/delete/31
+Stack Trace:
+#0 [internal function]: DocversionsController->delete('31')
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(DocversionsController), Array)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 05:04:59 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/39
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 05:05:01 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/37
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 05:05:05 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/36
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-25 05:05:08 Error: [MissingViewException] View file "/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Data/XM/www/linden-doclibrary/app/View/Docversions/media.ctp',
+)
+Request URL: /linden-doclibrary/docversions/download/26
+Stack Trace:
+#0 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Volumes/Data/XM/www/linden-doclibrary/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(DocversionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Data/XM/www/linden-doclibrary/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
